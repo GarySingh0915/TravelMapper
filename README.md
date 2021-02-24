@@ -17,12 +17,17 @@ and appropriate methods to manage this information.
 • Read, parse, and save the contents of the worldcities.csv file into a collection of City variables.
 
 • Repeat the following until the user enters “Quit” or “quit”.
-o Ask the user to pick a city, by name or by index, from all available cities. The user must be
-able to enter a city number or a city name – both options must be available.
-o Calculate the Great Circle Distance from the selected city to each of the other cities in the
-collection.
-o Find the five cities closest to the one selected, based on the calculated distances.
-o Display the list of five closest cities, along with the great circle distance to each in miles. The
-list must be sorted in ascending order by distance, with the closest city first.
-o Save the list of five closest cities, along with the great circle distance to each in miles. The
-file output must be formatted exactly the same as the console output. 
+
+  o Ask the user to pick a city, by name or by index, from all available cities. The user must be
+  able to enter a city number or a city name – both options must be available.
+
+  o Calculate the Great Circle Distance from the selected city to each of the other cities in the
+  collection.
+
+  o Find the five cities closest to the one selected, based on the calculated distances.
+
+  o Display the list of five closest cities, along with the great circle distance to each in miles. The
+  list must be sorted in ascending order by distance, with the closest city first.
+
+  o Save the list of five closest cities, along with the great circle distance to each in miles. The
+  file output must be formatted exactly the same as the console output. 
